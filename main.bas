@@ -21,7 +21,7 @@
 210 IF K > C THEN 230
 220 K = K + 26
 230 P = K - C
-240 P$ = P$ + CHR$(P + ASC("A) - 1)
+240 P$ = P$ + CHR$(P + ASC("A") - 1)
 250 NEXT I
 260 PRINT P$
 270 P$ = ""
